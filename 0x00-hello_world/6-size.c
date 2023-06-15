@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
- * main - Entry point
+ * main - Aprogram that uses the prinf function to print the sizes of fnctions
  *
- *Recent: Always 0 (Success)
+ *Return: 0 (Success)
  */
 int main(void)
 {

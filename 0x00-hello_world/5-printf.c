@@ -2,7 +2,7 @@
 /**
  * main - A program that uses printf function to print a statement
  *
- *Recent: 0 (Success)
+ *Return: 0 (Success)
  */
 int main(void)
 {

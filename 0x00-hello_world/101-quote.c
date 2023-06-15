@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<>
 /**
  * main - A program that uses function to prints that is not printf or put
  *

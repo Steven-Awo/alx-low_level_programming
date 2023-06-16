@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
 /**
  * main - A program that prints lowercase & Uppercase alphabet with putchar
  *

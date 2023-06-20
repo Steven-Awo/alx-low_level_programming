@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code.
+ * main - A program that prints alphabet x10 in lowercase using function
  *
- * Return: Always 0.
+ * Return: 0 (success)
  */
 int main(void)
 {

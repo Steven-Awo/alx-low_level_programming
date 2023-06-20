@@ -3,7 +3,7 @@
 /**
  * times_table - A program thhat prints nine times table from zero
  *
- * Return: 0 (success)
+ * Return: empty` (success)
  */
 
 void times_table(void)

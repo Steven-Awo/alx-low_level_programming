@@ -2,8 +2,8 @@
 
 /**
  * _isalpha - A program that checks for alphabets
- *
- *Return: 1 (Success) or 0 else
+ *@c: To check the character c
+ * Return: 1 (Success) or 0 else
  */
 
 int _isalpha(int c)

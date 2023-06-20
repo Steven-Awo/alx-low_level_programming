@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - A program that prints lowercase & Uppercase alphabet 10x
+ * _abs - A program that computes integers
  * @c: the figure to be computed
  * Return: value or zero (Success)
  */
@@ -9,7 +9,6 @@
 int _abs(int c)
 
 {
-	
 	if (c < 0)
 	{
 	int absol_val;

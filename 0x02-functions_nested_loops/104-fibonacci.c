@@ -15,7 +15,7 @@ int main(void)
 	for (count = 0; count <= 92; count++)
 	{
 	addi = fi1 + fi2;
-	printf("%lu, ", count);
+	printf("%lu, ", addi);
 	fi1 = fi2;
 	fi2 = addi;
 	}

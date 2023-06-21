@@ -8,16 +8,16 @@
 int main(void)
 {
 	int a = 0;
-	long x = 1, y = 2, addi = k;
+	long x = 1, y = 2, addi = y;
 
-	while (y + z < 4000000)
+	while (x + y < 4000000)
 	{
 	y += x;
 	if (y % 2 == 0)
 	addi += y;
 	x = y - x;
-	++a
+	++a;
 	}
-	printf("%ld\n");
+	printf("%ld\n", addi);
 	return (0);
 }

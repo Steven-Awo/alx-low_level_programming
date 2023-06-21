@@ -12,7 +12,7 @@ int main(void)
 	unsigned long fi1_hf1, fi1_hf2, fi2_hf1, fi2_hf2;
 	unsigned long hf1, hf2;
 
-	for (count = 0; count <= 92; count++)
+	for (count = 0; count < 92; count++)
 	{
 	addi = fi1 + fi2;
 	printf("%lu, ", addi);

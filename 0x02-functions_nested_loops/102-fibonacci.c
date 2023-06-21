@@ -28,4 +28,6 @@ int main(void)
 	}
 	++x;
 	}
+	print("\n");
+	return (0);
 }

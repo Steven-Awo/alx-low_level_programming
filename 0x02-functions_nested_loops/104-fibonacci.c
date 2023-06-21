@@ -37,8 +37,8 @@ int main(void)
 	printf(", ");
 	fi1_hf1 = fi2_hf1;
 	fi1_hf1 = fi2_hf2;
-	fi1_hf2 = hf1;
-	fi1_hf2 = hf2;
+	fi2_hf1 = hf1;
+	fi2_hf2 = hf2;
 	}
 	printf("\n");
 	return (0);

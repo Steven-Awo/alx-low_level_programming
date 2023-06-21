@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int count; 
+	int count;
 	unsigned long fi1 = 0, fi2 = 1, addi;
 	unsigned long fi1_hf1, fi1_hf2, fi2_hf1, fi2_hf2;
 	unsigned long hf1, hf2;
@@ -21,8 +21,8 @@ int main(void)
 	}
 	fi1_hf1 = fi1 / 10000000000;
 	fi1_hf2 = fi2 / 10000000000;
-	fi2_hf1 = fi1 / 10000000000;
-	fi2_hf2 = fi2 / 10000000000;
+	fi2_hf1 = fi1 % 10000000000;
+	fi2_hf2 = fi2 % 10000000000;
 	for  (count = 93; count < 99; count++)
 	{
 	hf1 = fi1_hf1 + fi2_hf1;

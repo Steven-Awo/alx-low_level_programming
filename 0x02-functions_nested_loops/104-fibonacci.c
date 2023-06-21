@@ -7,7 +7,8 @@
  */
 int main(void)
 {
-	int count fi1 = 0, fi2 = 1, addi;
+	int count; 
+	unsigned long fi1 = 0, fi2 = 1, addi;
 	unsigned long fi1_hf1, fi1_hf2, fi2_hf1, fi2_hf2;
 	unsigned long hf1, hf2;
 

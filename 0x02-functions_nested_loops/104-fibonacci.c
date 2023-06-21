@@ -21,7 +21,7 @@ int main(void)
 	}
 	fi1_hf1 = fi1 / 10000000000;
 	fi1_hf1 = fi2 / 10000000000;
-	fi2_hf2 = fi1 % 10000000000;
+	fi2_hf3 = fi1 % 10000000000;
 	fi2_hf2 = fi2 % 10000000000;
 	for  (count = 93; count < 99; count++)
 	{

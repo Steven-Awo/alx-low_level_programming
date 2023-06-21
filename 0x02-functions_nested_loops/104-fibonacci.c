@@ -20,8 +20,8 @@ int main(void)
 	fi2 = addi;
 	}
 	fi1_hf1 = fi1 / 10000000000;
-	fi1_hf2 = fi2 / 10000000000;
-	fi2_hf1 = fi1 % 10000000000;
+	fi1_hf1 = fi2 / 10000000000;
+	fi2_hf2 = fi1 % 10000000000;
 	fi2_hf2 = fi2 % 10000000000;
 	for  (count = 93; count < 99; count++)
 	{
@@ -36,7 +36,7 @@ int main(void)
 	if (count != 98)
 	printf(", ");
 	fi1_hf1 = fi2_hf1;
-	fi1_hf1 = fi2_hf2;
+	fi1_hf2 = fi2_hf2;
 	fi2_hf1 = hf1;
 	fi2_hf2 = hf2;
 	}

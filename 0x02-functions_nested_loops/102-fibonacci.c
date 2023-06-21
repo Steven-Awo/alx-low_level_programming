@@ -28,6 +28,6 @@ int main(void)
 	}
 	++x;
 	}
-	print("\n");
+	printf("\n");
 	return (0);
 }

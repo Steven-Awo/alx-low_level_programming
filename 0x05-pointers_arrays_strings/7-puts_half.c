@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- * puts_half - A program that prints a string a new line, to stdout
+ * puts_half - A program that prints the second half of a str
  * @str: The caariable that is exercuted
  * Return: void
  */

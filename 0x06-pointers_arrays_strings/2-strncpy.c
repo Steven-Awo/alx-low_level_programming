@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncpy - A program to concatenate two strngs
+ * _strncpy - A program copies a string
  * @src: The source of the file
  * @dest: The destination of the file
  * @n: the number of byte

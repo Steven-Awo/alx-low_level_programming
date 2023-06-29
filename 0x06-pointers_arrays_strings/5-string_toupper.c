@@ -11,7 +11,7 @@ char *string_toupper(char *x)
 {
 	int numb = 0;
 
-	while (x[numb])
+	while (x[numb] != '\0')
 	{
 		if (x[numb] > 'a' && x[numb] <= 'z')
 		x[numb] -= 32;

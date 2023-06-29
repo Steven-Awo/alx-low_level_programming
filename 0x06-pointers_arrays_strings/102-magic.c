@@ -1,12 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 
-/**
- * main - A program that check the code.
- *
- * Return: 0 (successful)
- */
-
 int main(void)
 {
 	int x;
@@ -18,8 +12,8 @@ int main(void)
  /*
   * write your line of code here...
   * Remember:
-  * - you are not allowed to use y
-  * - you are not allowed to modify z
+  * - you are not allowed to use a
+  * - you are not allowed to modify p
   * - only one statement
   * -you are not allowed to code anything else than this line of code
  */

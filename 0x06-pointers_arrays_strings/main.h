@@ -13,13 +13,13 @@ int _strcmp(char *s1, char *s2);
 
 void reverse_array(int *a, int n);
 
-char *string_toupper(char *a);
+char *string_toupper(char *x);
 
-char *cap_string(char *a);
+char *cap_string(char *x);
 
-char *leet(char *a);
+char *leet(char *x);
 
-char *rot13(char *a);
+char *rot13(char *x);
 
 void print_number(int n);
 

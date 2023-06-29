@@ -9,15 +9,14 @@
 char *leet(char *m)
 
 {
-	int x = 0;
-	int y = 0;
+	int x;
+	int y;
 
 	char a[] = "aAeEoOtTlL";
 	char b[] = "4433007711";
 
-	while (m[x] != '\0')
+	for (x = 0; m[x] != '\0'; x++)
 	{
-	x++;
 	for (y = 0; y < 10; y++)
 	{
 	if (m[x] == a[y])

@@ -1,7 +1,14 @@
 #include "main.h"
 #include <stdio.h>
 
+/**
+ * main - A program that check the code.
+ *
+ * Return: 0 (successful)
+ */
+
 int main(void)
+
 {
 	int x;
 	int a[5];

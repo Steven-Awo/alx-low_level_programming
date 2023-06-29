@@ -1,21 +1,21 @@
 #include "main.h"
 
 /**
- * string_toupper - A program to concatenate two strngs
- * @x: The string to be changed to uppercase
- * Return: x (Successful)
+ * string_toupper - A program to change from lowercase 2 uppercase
+ * @x: The alphabet to be changed
+ * Return: 0 (Successful)
  */
 
-char *string_toupper(char *str)
+char *string_toupper(char *x)
 
 {
 	int numb = 0;
 
-	while (str[numb])
+	while (x[numb])
 	{
-	if (str[numb] > 'a' && str[numb] <= 'z')
-	str[numb] -= 32;
+	if (x[numb] > 97 && x[numb] <= 122)
+	x[numb] -= 32;
 	numb++;
 	}
-	return (str);
+	return (x);
 }

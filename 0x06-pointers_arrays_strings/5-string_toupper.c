@@ -6,16 +6,16 @@
  * Return: x (Successful)
  */
 
-char *string_toupper(char *x)
+char *string_toupper(char *str)
 
 {
 	int numb = 0;
 
-	while (x[numb])
+	while (str[numb])
 	{
-	if (x[numb] > 'a' && x[numb] <= 'z')
-	x[numb] -= 32;
+	if (str[numb] > 'a' && str[numb] <= 'z')
+	str[numb] -= 32;
 	numb++;
 	}
-	return (x);
+	return (str);
 }

@@ -1,7 +1,6 @@
 #include "variadic_functions.h"
 #include <stdlib.h>
 #include <stdio.h>
-#include <stdarg.h>
 
 /**
  * print_all - A program thart prints anything given
@@ -57,7 +56,7 @@ void print_a_char(char *separator, va_list args)
 
 /**
  * print_a_integer - A program that prints a chtr of int type
- * @s: The character sperator
+ * @separator: The character sperator
  * @args: The variadic arguments list
  * Return: Void (sucessful)
  */

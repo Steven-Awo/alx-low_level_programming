@@ -2,7 +2,7 @@
 
 /**
  * pop_listint - A program that deletes the head node of the linked list
- * @head: it points to the first node in the linked list
+ * @head: it points to the first node in the linked list.
  * Return: x (successfull),
  * or 0 if the list is empty
  */

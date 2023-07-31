@@ -1,22 +1,20 @@
 #ifndef _LINKED_LIST
 #define _LINKED_LIST
 #include <stddef.h>
-
+#include <stdlib.h>
 /**
- * struct list_s - The strcture program for singly linked list
- * @str: string - malloc'ed string
- * @len: the string's length
+ * struct listint_s - The strcture program for singly linked list
+ * @n: the integer
  * @next: the next node
  * Description: A singly linked list node structure
- * project from alx
  */
 
-typedef struct list_s
+typedef struct listint_s
+
 {
-	char *str;
-	unsigned int len;
-	struct list_s *next;
-} list_t;
+    int n;
+    struct listint_s *next;
+} listint_t;
 
 size_t print_listint(const listint_t *h);
 
@@ -27,6 +25,8 @@ listint_t *add_nodeint(listint_t **head, const int n);
 listint_t *add_nodeint_end(listint_t **head, const int n);
 
 void free_listint(listint_t *head);
+
+void free_listint2(listint_t **head);
 
 int pop_listint(listint_t **head);
 

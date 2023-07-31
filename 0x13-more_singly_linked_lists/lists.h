@@ -2,6 +2,8 @@
 #define _LINKED_LIST
 #include <stddef.h>
 #include <stdlib.h>
+#include <stdio.h>
+
 /**
  * struct listint_s - The strcture program for singly linked list
  * @n: the integer

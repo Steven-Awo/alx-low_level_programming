@@ -2,7 +2,7 @@
 
 /**
  * sum_listint - A program that adds all the data in
- * a listint_t list
+ * a listint_t list.
  * @head: the first node in the linked list
  * Return: add
  */

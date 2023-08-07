@@ -1,10 +1,9 @@
-#ifndef _FILE_IO_
-#define _FILE_IO_
+#ifndef _MAIN_H
+#define _MAIN_H
 
 #include <unistd.h>
 #include <sys/stat.h>
 #include <sys/types.h>
-#include <stdlib.h>
 #include <sys/uio.h>
 #include <fcntl.h>
 

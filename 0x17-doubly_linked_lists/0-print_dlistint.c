@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * dlistint_len - A function that returns the number of 
+ * print_dlistint - A function that returns the number of
  * elements in a double linked list
  * @h: the list head
- * Return: countr number of nodes
+ * Return: the number of nodes
  */
 
 size_t print_dlistint(const dlistint_t *h)

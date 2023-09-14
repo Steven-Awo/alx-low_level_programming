@@ -12,17 +12,17 @@ size_t print_dlistint(const dlistint_t *h)
 	int countr;
 
 	countr = 0;
-	if (x == NULL)
+	if (h == NULL)
 	{
 	return (countr);
 	}
-	while (x->prev != NULL)
-		x = x->prev;
-	while (x != NULL)
+	while (h->prev != NULL)
+		h = h->prev;
+	while (h != NULL)
 	{
-	printf("%d\n", x->n);
+	printf("%d\n", h->n);
 	countr++;
-	x = x->next;
+	h = h->next;
 	}
 	return (countr);
 }

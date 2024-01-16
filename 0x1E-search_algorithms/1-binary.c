@@ -60,6 +60,6 @@ int binary_search(int *array, size_t size, int value)
 	if (indexx >= 0 && array[indexx] != value)
 	{
 	return (-1);
-	} 
+	}
 	return (indexx);
 }

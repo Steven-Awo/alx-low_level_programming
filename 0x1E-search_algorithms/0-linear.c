@@ -2,7 +2,7 @@
 
 /**
  * linear_search - the function that searches for an array of ints
- * for a value by using the algorithm Linear search 
+ * for a value by using the algorithm Linear search
  * @array: the inputed array
  * @size: the array's size
  * @value: value to search in

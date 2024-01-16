@@ -1,6 +1,9 @@
 #ifndef __search_algos_h
 #define __search_algos_h
 
+#include <stdlib.h>
+#include <stdio.h>
+
 /**
  * struct listint_s - singly linked list
  * @n: Integer

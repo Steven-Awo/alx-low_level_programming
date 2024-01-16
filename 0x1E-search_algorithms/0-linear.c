@@ -5,8 +5,8 @@
  * for a value by using the algorithm Linear search
  * @array: the inputed array
  * @size: the array's size
- * @value: value to search in
- * Return: Always EXIT_SUCCESS
+ * @value: the value to be searched in
+ * Return: if null (-1) else EXIT_SUCCESS
  */
 
 int linear_search(int *array, size_t size, int value)
